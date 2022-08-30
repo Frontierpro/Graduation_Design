@@ -1,0 +1,90 @@
+.form {
+    width: calc(100vw - 380px);
+    margin-left: 40px;
+}
+
+.mask {
+    position: fixed;
+    z-index: 3;
+    background-color: white;
+    width: calc(100vw - 380px);
+}
+
+.foot {
+    height: 55px;
+    margin-top: calc(100vh - 86px);
+}
+
+.left {
+    margin-top: 15px;
+}
+
+.right {
+    margin-top: 15.5px;
+    margin-left: calc(100vw - 450px);
+}
+
+.pseudoFoot {
+    height: 65px;
+}
+
+.inputBar {
+    position: relative;
+    height: 40px;
+}
+
+.titleText {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 550;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.textInput {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 10px;
+    width: calc(100vw - 460px);
+    height: 25px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+}
+
+input {
+    position: absolute;
+    width: calc(100vw - 505px);
+    height: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+}
+
+.ctrlBtn {
+    position: absolute;
+    background-color: yellowgreen;
+    width: 25px;
+    height: 25px;
+    margin-left: calc(100vw - 485px);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+.hover {
+    box-shadow: yellowgreen 0 0 5px;
+}
+
+.active {
+    background-color: #35AA53;
+}
+
+.svgIcon {
+    width: 13px;
+    height: 13px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
