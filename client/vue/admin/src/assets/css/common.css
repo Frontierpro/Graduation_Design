@@ -1,0 +1,53 @@
+.titleText {
+    width: 82%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 18%;
+    margin-bottom: 20px;
+    color: cornflowerblue;
+}
+
+span {
+    display: block;
+}
+
+.routerLink {
+    position: relative;
+    width: 100%;
+    height: 63px;
+}
+
+.linkText {
+    position: absolute;
+    height: 13px;
+    line-height: 13px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 44px;
+    color: cornflowerblue;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+
+.linkStyle {
+    width: 117px;
+    margin-left: 17%;
+}
+
+.leftLink {
+    width: 52px;
+    margin-left: 17%;
+}
+
+.rightLink {
+    width: 52px;
+    margin-left: 197px;
+}
+
+.underline {
+    border-bottom: cornflowerblue 2px solid
+}
